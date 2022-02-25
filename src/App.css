@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  background-color: rgb(205, 214, 214);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link-name {
+  text-decoration: none;
   color: white;
+  font-size: 1.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.link-name:hover {
+  cursor: pointer;
+  color:  rgb(277, 277, 277);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Extra Background*/
+.grass {
+  background-color:  rgb(38, 235, 90);
+}
+.water {
+  background-color: cyan
+}
+
+.ice {
+  background-color: lightblue;
+}
+
+.fire {
+  background-color: rgb(235, 71, 38);
+}
+
+.electric {
+  background-color: rgb(235,209, 38);
+}
+
+.fighting {
+  background-color: rgb(235, 104,37);
+}
+
+.poison {
+  background-color: rgb(176, 38, 235);
+}
+
+.ground{
+  background-color: rgb(181, 131, 92);
+}
+
+.flying {
+  background-color: rgb(161, 215, 230);
+}
+
+.psychic {
+  background-color: rgb(219, 77, 207);
+}
+
+.ghost {
+  background-color: rgb(131, 24, 133);
+}
+
+.bug {
+  background-color: rgb(113, 209, 10);
+}
+
+.rock {
+  background-color: rgb(166, 87, 8);
+}
+
+.dragon {
+  background-color: rgb(50, 24, 207);
+}
+
+.normal {
+  background-color: rgb(168, 163, 157);
+}
+
+.fairy {
+  background-color: rgb(255, 148, 191);
 }
